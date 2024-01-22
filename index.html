@@ -1,105 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico">
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/output.css" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-</head>
+  <body class="bg-black text-white">
+    <div class="flex container mx-auto">
+      <div class="first w-[70%]">
+        <div class="logo invert">
+          <svg
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            class="w-7 mx-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+          >
+            <g>
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div class="sidebar flex flex-col items-end">
+          <ul class="flex flex-col px-15">
+            <li
+              class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
+            >
+              <span class="material-symbols-outlined cursor-pointer"> home </span>Home
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
+            >
+              <span class="material-symbols-outlined cursor-pointer"> search </span>Explore
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
+            >
+              <span class="material-symbols-outlined cursor-pointer"> notifications</span
+              >Notification
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
+            >
+              <span class="material-symbols-outlined cursor-pointer"> message </span>Messages
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
+            >
+              <span class="material-symbols-outlined">check_box</span>Grok
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
+            >
+              <span class="material-symbols-outlined cursor-pointer"> person </span>Profile
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
+            >
+              <span class="material-symbols-outlined">list</span> Lists
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
+            >
+              <span class="material-symbols-outlined cursor-pointer"> bookmark </span>Bookmarks
+            </li>
+            <li
+              class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
+            >
+              <span class="material-symbols-outlined cursor-pointer"> groups </span>Communities
+            </li>
 
-<body class="bg-black text-white">
-  <div class="flex container mx-auto">
-    <div class="first w-[70%]">
-      <div class="logo invert">
-        <svg viewBox="0 0 24 24" aria-hidden="true"
-          class="w-7 mx-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-          <g>
-            <path
-              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
-            </path>
-          </g>
-        </svg>
+            <li
+              class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
+            >
+              <span class="material-symbols-outlined cursor-pointer"> more </span>More
+            </li>
+          </ul>
+          <div class = "my-4">
+            <button class = "bg-sky-600 font-extrabold px-16 py-4 text-sm mx-8 rounded-full">POST</button>
+          </div>
+        </div>
       </div>
-      <div class="sidebar flex justify-end">
-        <ul class="flex flex-col px-15">
-          <li class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full "><span class="material-symbols-outlined"> home </span>Home</li>
-          <li class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"><span class="material-symbols-outlined"> search </span>Explore</li>
-          <li class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"><span class="material-symbols-outlined"> notifications</span>Notification</li>
-          <li class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"><span class="material-symbols-outlined"> message </span>Messages</li>
-          <li class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full">
-            <span class="material-symbols-outlined">check_box</span>Grok
-          </li>
-          <li class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full">
-            <span class="material-symbols-outlined"> person </span>Profile
-          </li>
-          <li class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full">
-            <span class="material-symbols-outlined">list</span> Lists
-        </li>
-          <li class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full">
-            <span class="material-symbols-outlined"> bookmark </span>Bookmarks
-          </li>
-          <li class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full">
-            <span class="material-symbols-outlined"> groups </span>Communities
-          </li>
+      <div class="second w-full border-l border-r">
+        <div class="top flex mx-2 relative">
+          <div
+            class="absolute left-[18%] bg-blue-600 w-12 h-1 bottom-0 rounded-full"
+          ></div>
+          <div class="left w-1/2 flex justify-center font-bold mb-2">
+            For You
+          </div>
+          <div class="right w-1/2 flex justify-center font-bold">Following</div>
+          <div class="setting">
+            <span class="material-symbols-outlined cursor-pointer"> settings </span>
+          </div>
+        </div>
+        <div class="whatHpp flex gap-4 m-5">
+          <div class="img w-12">
+            <img
+              src="https://pbs.twimg.com/profile_images/1471345330801164291/8bitdGdc_bigger.jpg"
+              alt="Profile_photo"
+              class="rounded-full"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="What is happening?!"
+              class="bg-black text-xl text-white w-full mt-[1px] outline-none"
+            />
+            <div
+              class="text-sky-500 flex items-center my-5 text-sm font-extrabold"
+            >
+              <h5 class="flex items-center gap-2">
+                <span class="material-symbols-outlined cursor-pointer"> globe_uk </span
+                >Everyone can reply
+              </h5>
+            </div>
+            <div class="w-full h-[0.1px] bg-gray-500 my-5"></div>
+            <div class="icons flex gap-2 text-sky-400">
+              <span class="material-symbols-outlined cursor-pointer"> image </span>
+              <span class="material-symbols-outlined cursor-pointer"> gif_box </span>
+              <span class="material-symbols-outlined cursor-pointer"> page_info </span>
+
+              <span class="material-symbols-outlined">
+                sentiment_satisfied
+              </span>
+
+              <span class="material-symbols-outlined cursor-pointer"> pending_actions </span>
+              <span class="material-symbols-outlined cursor-pointer"> location_on </span>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-[0.1px] bg-gray-400 my-5"></div>
+       <div>
         
-          <li class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full">
-            <span class="material-symbols-outlined"> more </span>More
-          </li>
-        </ul>
+       </div>
+
       </div>
-    </div>
-    <div class="second w-full border-l border-r">
-      <div class="top flex mx-2 relative">
-        <div class = "absolute left-[18%] bg-blue-600 w-12 h-1 bottom-0 rounded-full "></div>
-        <div class="left w-1/2 flex justify-center font-bold mb-2">For You</div>
-        <div class="right w-1/2 flex justify-center font-bold">Following</div>
-        <div class="setting"><span class="material-symbols-outlined">
-          settings
-          </span>
+      <div class="third w-full">
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Search"
+            class="w-[80%] rounded-full bg-gray-800 text-white p-3 m-4"
+          />
+          <div class="w-[80%] rounded-3xl bg-gray-800 p-3 mx-4">
+            <h1 class="font-extrabold text-2xl mx-1 mb-2">
+              Subscribe to Premium
+            </h1>
+            <p class="mb-2">
+              Subscribe to unlock new features and if eligible, receive a share
+              of ads revenue.
+            </p>
+            <button
+              class="rounded-full bg-sky-500 px-4 py-2 hover:bg-sky-600 font-bold"
+            >
+              Subscribe
+            </button>
+          </div>
+          <div class="w-[80%] rounded-3xl bg-gray-800 p-3 m-4">
+            <h2 class="font-extrabold text-xl mx-1 mb-2">What’s happening</h2>
+            <div class="mb-2 hover:bg-slate-700">
+              <span class="text-gray-600">Trending in India</span>
+              <h3 class="font-semibold">#राम_अकेले_आए_हैं</h3>
+              <p class="font-light text-gray-500 text-sm">1.23M posts</p>
+            </div>
+            <div class="mb-2 hover:bg-slate-700">
+              <span class="text-gray-600">Trending</span>
+              <h3 class="font-semibold">#RamMandirPranPrathistha</h3>
+              <p class="font-light text-gray-500 text-sm">1.11M posts</p>
+            </div>
+            <div class="mb-2 hover:bg-slate-700">
+              <span class="text-gray-600">Trending</span>
+              <h3 class="font-semibold">#WorldInAyodhya</h3>
+              <p class="font-light text-gray-500 text-sm">987k posts</p>
+            </div>
+            <div class="mb-2 hover:bg-slate-700">
+              <span class="text-gray-600">Politics. Trending</span>
+              <h3 class="font-semibold">Tamil Nadu</h3>
+              <p class="font-light text-gray-500 text-sm">32.7K posts</p>
+            </div>
+
+            <button class="text-blue-400 hover:text-blue-700">Show More</button>
+          </div>
         </div>
       </div>
     </div>
-    <div class="third w-full">
-      <div class="search">
-        <input type = "text" placeholder="Search" class ="w-[80%] rounded-full bg-gray-800 text-white p-3 m-4">
-        <div class = "w-[80%] rounded-3xl bg-gray-800 p-3 mx-4">
-          <h1 class="font-extrabold text-2xl mx-1 mb-2">Subscribe to Premium</h1>
-          <p class = "mb-2">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
-          <button class="rounded-full bg-sky-500 px-4 py-2"><span class="font-bold">Subscribe</span></button>
-        </div>
-        <div class = "w-[80%] rounded-3xl bg-gray-800 p-3 m-4">
-          <h2 class = "font-extrabold text-xl mx-1 mb-2">
-            What’s happening</h2>
-            <div class = "mb-2  hover:bg-slate-700">
-            <span class = "text-gray-600">Trending in India</span>
-            <h3 class = "font-semibold">#राम_अकेले_आए_हैं</h3>
-            <p class = "font-light text-gray-500 text-sm">1.23M posts</p>
-           </div>
-            <div class = "mb-2  hover:bg-slate-700">
-              <span class = "text-gray-600">Trending</span>
-            <h3 class = "font-semibold">Ram Ram</h3>
-            <p class = "font-light text-gray-500 text-sm">1.11M posts</p>
-           </div>
-            <div class = "mb-2  hover:bg-slate-700">
-            <span class = "text-gray-600">Trending</span>
-            <h3 class = "font-semibold">#WorldInAyodhya</h3>
-            <p class = "font-light text-gray-500 text-sm">987k posts</p>
-           </div>
-            <div class = "mb-2  hover:bg-slate-700 ">
-            <span class = "text-gray-600">Politics. Trending</span>
-            <h3 class = "font-semibold">Tamil Nadu</h3>
-            <p class = "font-light text-gray-500 text-sm"> 32.7K posts</p>
-           </div>
-
-           <button class = "text-blue-400 hover:text-blue-700">Show More</button>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
