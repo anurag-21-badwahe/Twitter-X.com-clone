@@ -12,14 +12,14 @@
     <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico" />
   </head>
 
-  <body class="bg-black text-white">
-    <div class="flex container mx-auto relative">
-      <div class="first w-[70%]">
-        <div class="logo invert fixed ">
+  <body class="bg-black text-white w-full">
+    <div class="flex container mx-auto ">
+      <div class="first w-14 md:w-[70%] ">
+        <div class="logo invert ">
           <svg
             viewBox="0 0 24 24"
             aria-hidden="true"
-            class="w-7  mx-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+            class="w-7 mx-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
           >
             <g>
               <path
@@ -28,66 +28,71 @@
             </g>
           </svg>
         </div>
-        <div class="sidebar flex flex-col items-end fixed">
+        <div class="sidebar flex flex-col items-end sticky top-0">
           <ul class="flex flex-col px-15">
             <li
               class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
             >
               <span class="material-symbols-outlined cursor-pointer">
                 home </span
-              >Home
+              ><span class = "hidden md:block">Home</span>
             </li>
             <li
               class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
             >
               <span class="material-symbols-outlined cursor-pointer">
                 search </span
-              >Explore
+              ><span class = "hidden md:block">Explore</span>
             </li>
             <li
               class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
             >
               <span class="material-symbols-outlined cursor-pointer">
                 notifications</span
-              >Notification
+              ><span class = "hidden md:block">Notification</span>
             </li>
             <li
               class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
             >
               <span class="material-symbols-outlined cursor-pointer">
                 message </span
-              >Messages
+              ><span class = "hidden md:block">Messages</span>
             </li>
             <li
               class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
             >
-              <span class="material-symbols-outlined">check_box</span>Grok
+            <span class="material-symbols-outlined cursor-pointer">
+              check_box </span
+            ><span class = "hidden md:block">Grok</span>
             </li>
             <li
               class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
             >
               <span class="material-symbols-outlined cursor-pointer">
                 person </span
-              >Profile
+              ><span class = "hidden md:block">Profile</span>
             </li>
+            
             <li
               class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
             >
-              <span class="material-symbols-outlined">list</span> Lists
+              <span class="material-symbols-outlined cursor-pointer">
+                lists </span
+              ><span class = "hidden md:block">List</span>
             </li>
             <li
               class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
             >
               <span class="material-symbols-outlined cursor-pointer">
                 bookmark </span
-              >Bookmarks
+              ><span class = "hidden md:block">Bookmarks</span>
             </li>
             <li
               class="flex justify-start items-center gap-3 text-[20px] w-fit px-5 py-2 font-bold text-slate-200 hover:bg-gray-800 rounded-full"
             >
               <span class="material-symbols-outlined cursor-pointer">
                 groups </span
-              >Communities
+              ><span class = "hidden md:block">Communities</span>
             </li>
 
             <li
@@ -95,10 +100,10 @@
             >
               <span class="material-symbols-outlined cursor-pointer">
                 more </span
-              >More
+              ><span class = "hidden md:block">More</span>
             </li>
           </ul>
-          <div class="my-4">
+          <div class="my-4 hidden md:block">
             <button
               class="bg-sky-600 font-extrabold px-16 py-4 text-sm mx-8 rounded-full"
             >
@@ -107,7 +112,7 @@
           </div>
         </div>
       </div>
-      <div class="second w-full border-l border-r">
+      <div class="second w-full ">
         <div class="top flex mx-2 relative">
           <div
             class="absolute left-[18%] bg-blue-600 w-12 h-1 bottom-0 rounded-full"
@@ -180,46 +185,53 @@
                 class="rounded-full w-12"
               />
             </div>
-            <div class="content hover:underline cursor-pointer">Anurag Badwahe<span class = "text-gray-500">@anuragbadwahe  .1h</span></div>
+            <div class="content hover:underline cursor-pointer">
+              Anurag Badwahe<span class="text-gray-500"
+                >@anuragbadwahe .1h</span
+              >
+            </div>
           </div>
-          <div class = "mx-4">500 years of struggle, sacrifices and tears, finally the day is here, Ramchandra is finally home, this is a historic moment for us. Make sure to watch the live telecast, this is the moment of your life. ✨
-            <span class="text-sky-600 font-bold"> #PranPratishthaRamMandir</span>
-           </div>
-           <div class = "post-content m-5">
-           <img src="./image/ramji.jpg" alt="content-img" class="rounded-md">
-           <div class = "text-gray-600 my-1">12:46 PM · Jan 22, 2024
-            ·
-            10.6M
-             Views</div>
+          <div class="mx-4">
+            500 years of struggle, sacrifices and tears, finally the day is
+            here, Ramchandra is finally home, this is a historic moment for us.
+            Make sure to watch the live telecast, this is the moment of your
+            life. ✨
+            <span class="text-sky-600 font-bold">
+              #PranPratishthaRamMandir</span
+            >
           </div>
-          
-          <div class="icons flex text-sky-400 w-full space-x-16 m-4">
-           <span class="material-symbols-outlined cursor-pointer">
-             chat_bubble
-           </span>
-           <span class="material-symbols-outlined cursor-pointer">
-            share_reviews
-           </span>
-           <span class="material-symbols-outlined cursor-pointer hover:bg-sky-500">
-             favorite
-           </span>
+          <div class="post-content m-5">
+            <img src="./image/ramji.jpg" alt="content-img" class="rounded-md" />
+            <div class="text-gray-600 my-1">
+              12:46 PM · Jan 22, 2024 · 10.6M Views
+            </div>
+          </div>
 
-           
+          <div class="icons flex flex-wrap text-sky-400 w-full space-x-6 md:space-x-4 m-4">
+            <span class="material-symbols-outlined cursor-pointer">
+              chat_bubble
+            </span>
+            <span class="material-symbols-outlined cursor-pointer">
+              share_reviews
+            </span>
+            <span
+              class="material-symbols-outlined cursor-pointer hover:bg-sky-500"
+            >
+              favorite
+            </span>
+
             <span class="material-symbols-outlined cursor-pointer">
               equalizer
-              </span>
-          
+            </span>
 
-           <span class="material-symbols-outlined cursor-pointer">
-             pending_actions
-           </span>
-           <span class="material-symbols-outlined cursor-pointer">
-          
+            <span class="material-symbols-outlined cursor-pointer">
+              pending_actions
+            </span>
+            <span class="material-symbols-outlined cursor-pointer">
               download
-              
-           </span>
-         </div>
-         <div class="w-full h-[0.1px] bg-gray-400 my-5"></div>
+            </span>
+          </div>
+          <div class="w-full h-[0.1px] bg-gray-400 my-5"></div>
         </div>
         <div class="posts">
           <div class="post m-5 flex items-center gap-2">
@@ -230,56 +242,61 @@
                 class="rounded-full w-12"
               />
             </div>
-            <div class="content hover:underline cursor-pointer">Narendra Modi<span class = "text-gray-500">@narendramodi  .1h</span></div>
+            <div class="content hover:underline cursor-pointer">
+              Narendra Modi<span class="text-gray-500">@narendramodi .1h</span>
+            </div>
           </div>
-          <div class = "mx-4">अयोध्या धाम में श्री राम लला की प्राण-प्रतिष्ठा का अलौकिक क्षण हर किसी को भाव-विभोर करने वाला है। इस दिव्य कार्यक्रम का हिस्सा बनना मेरा परम सौभाग्य है। जय सियाराम!. 🚩🚩
-            <span class="text-sky-600 font-bold"> #PranPratishthaRamMandir #Jay Shree Ram</span>
-           </div>
-           <div class = "post-content m-5">
-           <img src="./image/Ram-Mandir.avif" alt="content-img" class="rounded-md">
-           <div class = "text-gray-600 my-1">12:46 PM · Jan 22, 2024
-            ·
-            12.6M
-             Views</div>
+          <div class="mx-4">
+            अयोध्या धाम में श्री राम लला की प्राण-प्रतिष्ठा का अलौकिक क्षण हर
+            किसी को भाव-विभोर करने वाला है। इस दिव्य कार्यक्रम का हिस्सा बनना
+            मेरा परम सौभाग्य है। जय सियाराम!. 🚩🚩
+            <span class="text-sky-600 font-bold">
+              #PranPratishthaRamMandir #Jay Shree Ram</span
+            >
           </div>
-          
-          <div class="icons flex text-sky-400 w-full space-x-16 m-4">
-           <span class="material-symbols-outlined cursor-pointer">
-             chat_bubble
-           </span>
-           <span class="material-symbols-outlined cursor-pointer">
-            share_reviews
-           </span>
-           <span class="material-symbols-outlined cursor-pointer hover:bg-sky-500">
-             favorite
-           </span>
+          <div class="post-content m-5">
+            <img
+              src="./image/Ram-Mandir.avif"
+              alt="content-img"
+              class="rounded-md"
+            />
+            <div class="text-gray-600 my-1">
+              12:46 PM · Jan 22, 2024 · 12.6M Views
+            </div>
+          </div>
 
-           
-            <span class="material-symbols-outlined cursor-pointer">
-              equalizer
-              </span>
-          
-
-           <span class="material-symbols-outlined cursor-pointer">
-             pending_actions
-           </span>
-           <span class="material-symbols-outlined cursor-pointer">
-          
-              download
-              
-           </span>
-         </div>
-         <div class="w-full h-[0.1px] bg-gray-400 my-5"></div>
+          <div class="icons flex flex-wrap text-sky-400 w-full space-x-6 md:space-x-4 m-4">
+            <span class="material-symbols-outlined cursor-pointer mb-2">
+                chat_bubble
+            </span>
+            <span class="material-symbols-outlined cursor-pointer mb-2">
+                share_reviews
+            </span>
+            <span class="material-symbols-outlined cursor-pointer hover:bg-sky-500 mb-2">
+                favorite
+            </span>
+            <span class="material-symbols-outlined cursor-pointer mb-2">
+                equalizer
+            </span>
+            <span class="material-symbols-outlined cursor-pointer mb-2">
+                pending_actions
+            </span>
+            <span class="material-symbols-outlined cursor-pointer mb-2">
+                download
+            </span>
+        </div>
+        
+          <div class="w-full h-[0.1px] bg-gray-400 my-5"></div>
         </div>
       </div>
-      <div class="third w-full ">
-        <div class="search fixed">
+      <div class="third w-full hidden  lg:block">
+        <div class="search sticky top-0 ">
           <input
             type="text"
             placeholder="Search"
             class="w-[80%] rounded-full bg-gray-800 text-white p-3 m-4"
           />
-          <div class="w-[80%] rounded-3xl bg-gray-800 p-3 mx-4">
+          <div class="w-[80%] rounded-3xl bg-gray-800 p-3 mx-4 ">
             <h1 class="font-extrabold text-2xl mx-1 mb-2">
               Subscribe to Premium
             </h1>
@@ -314,8 +331,7 @@
               <span class="text-gray-600">Politics. Trending</span>
               <h3 class="font-semibold">Tamil Nadu</h3>
               <p class="font-light text-gray-500 text-sm">32.7K posts</p>
-            </div>
-
+            </div>>
             <button class="text-blue-400 hover:text-blue-700">Show More</button>
           </div>
         </div>
